@@ -20,7 +20,7 @@ $(document).ready(function () {
     
     this.draw = function (x, y) {
       ctx.beginPath();
-      ctx.arc(x, y, 20, 0, 2 * Math.PI);
+      ctx.arc(x, y, 20, 0, 2 * Math.PI, false);
       ctx.stroke();
     }
   }
@@ -29,5 +29,5 @@ $(document).ready(function () {
   const TheBall = new Ball();
   
   PlayerPaddle.draw(150, 300);
-  TheBall.draw(0, 0);
+  TheBall.draw(200, 100);
 });
