@@ -20,7 +20,7 @@ $(document).ready(function () {
     
     this.draw = function (x, y) {
       ctx.beginPath();
-      ctx.arc(x, y, 20, 0, 2 * Math.PI, false);
+      ctx.arc(x, y, 20, 0, Math.PI * 2, false);
       ctx.stroke();
     }
   }
