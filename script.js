@@ -24,4 +24,7 @@ $(document).ready(function () {
       ctx.stroke();
     }
   }
+  
+  Paddle.draw(150, 300);
+  Ball.draw(280, 100);
 });
