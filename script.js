@@ -1,4 +1,4 @@
-$(document).ready(function () {
+Pla$(document).ready(function () {
   // define necessary variables
   var canvas = document.getElementById('canvas');
   var ctx = canvas.getContext('2d');
@@ -25,6 +25,9 @@ $(document).ready(function () {
     }
   }
   
-  Paddle.draw(150, 300);
-  Ball.draw(280, 100);
+  const PlayerPaddle = new Paddle();
+  const TheBall = new Ball();
+  
+  PlayerPaddle.draw(150, 300);
+  TheBall.draw(280, 100);
 });
