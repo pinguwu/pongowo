@@ -29,5 +29,5 @@ $(document).ready(function () {
   const TheBall = new Ball();
   
   PlayerPaddle.draw(150, 300);
-  TheBall.draw(280, 100);
+  TheBall.draw(0, 0);
 });
